@@ -26,6 +26,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import xarray as xr
 import argparse
+import json
 
 VV_TO_MOLEC = 1000./(9.80665*28.9644)
 MINDATE=dt.datetime(2020,1,1)
@@ -35,10 +36,28 @@ def main(args):
     '''
     Read Pandora observations and calculate corresponding GEOS-CF quantities
     '''
-    pand,lat,lon = _read_pandora(args.ifile)
+    locations = json.load(open(args.locations))
+    assert args.nsite<len(locations),"index out of range: {} vs {}".format(args.nsite,len(locations)) 
+    iloc = locations[args.nsite]
+    basename = iloc.get('pandora_url').split('/')[-1]
+    ifile = "obs/"+basename
+    if not os.path.isfile(ifile):
+        print("obs file does not exist, skip: {}".format(ifile))
+        return
+
+    ofile = "merged_csv/"+basename.replace(".txt","+GEOSCF.csv")
+    if os.path.isfile(ofile):
+        print("file exists, don't do anything: {}".format(ofile))
+        return
+
+    pand,lat,lon = _read_pandora(ifile)
     # qc flags?
     ##pand = pand.loc[pand['qval']==10,].copy()
+    # limit data to minimum date and three days from now (due to CF latency)
+    maxdate = dt.datetime.today() - dt.timedelta(days=3) 
+    maxdate = dt.datetime(maxdate.year,maxdate.month,maxdate.day)
     pand = pand.loc[pand['date']>=MINDATE,].copy()
+    pand = pand.loc[pand['date']<=maxdate,].copy()
     pand = pand.loc[(pand['pandora_no2_l1hgt']>0.0)&(pand['pandora_no2_l1hgt']<15.),].copy()
  
     # create empty entries for CF fields 
@@ -51,8 +70,6 @@ def main(args):
     # populate CF fields
     fnl={}; dsl={}
     for irow, row in enumerate(pand.itertuples()):
-        if irow==20:
-            break
         # get cf values for this entry
         sfcmr,sfcconc,l1col,pbl,sfcmr_pandora,fnl,dsl = _match_cf(args,row,lat,lon,fnl,dsl)
         # add to pandas array
@@ -67,7 +84,6 @@ def main(args):
     pand['lon'] = [lon for i in range(pand.shape[0])]
     
     # write to file
-    ofile = os.path.basename(args.ifile).replace(".txt","+GEOSCF.csv")
     pand.to_csv(ofile,index=False,date_format="%Y-%m-%d %H:%M")
     print("data written to {}".format(ofile))
     
@@ -107,7 +123,7 @@ def _match_cf(args,row,lat,lon,fnl,dsl):
     Read GEOS-CF fields and calculate matching quantities at provided location (lat,lon)
     '''
     # initialize values
-    sfcmr=np.nan; sfcconc=np.nan; l1col=np.nan; pbl=np.nan
+    sfcmr=np.nan; sfcconc=np.nan; l1col=np.nan; pbl=np.nan; sfcmr_pandora=np.nan
     # read new file if needed. Round to hour to match up with GEOS-CF time stamps
     idate = row.date.round('H')
     templ = idate.strftime(args.cf_template)
@@ -119,6 +135,9 @@ def _match_cf(args,row,lat,lon,fnl,dsl):
             dsc = dsl['chm']
             readchm = False
     if readchm:
+        if not os.path.isfile(ifilec):
+           print('Warning - file not found: {}'.format(ifilec))
+           return sfcmr, sfcconc, l1col, pbl, sfcmr_pandora, fnl, dsl
         print('reading {}'.format(ifilec))
         dsc = xr.open_dataset(ifilec)
         fnl['chm']=ifilec
@@ -190,7 +209,7 @@ def _read_pandora(ifile):
     Read pandora observations (L2_rnvh3p1-8)
     '''
     print('Reading {}'.format(ifile))
-    dat = pd.read_csv(ifile,sep=',',skiprows=93)
+    dat = pd.read_csv(ifile,sep=',',skiprows=93,encoding="utf-8")
     tmp = []
     for l in range(dat.shape[0]):
         iline = dat.iloc[l]
@@ -220,7 +239,9 @@ def _read_pandora(ifile):
 
 def parse_args():
     p = argparse.ArgumentParser(description='Undef certain variables')
-    p.add_argument('-i', '--ifile',type=str,help='input pandora file',default=None)
+    p.add_argument('-l', '--locations',type=str,help='locations',default="PANDORA_Locations.json")
+    p.add_argument('-n', '--nsite',type=int,help='location index in json list',default=0)
+    #p.add_argument('-i', '--ifile',type=str,help='input pandora file',default=None)
     p.add_argument('-c', '--cf_template',type=str,help='GEOS-CF file template',default="/discover/nobackup/projects/gmao/geos_cf/pub/GEOS-CF_NRT/ana/Y%Y/M%m/D%d/GEOS-CF.v01.rpl.<col>_inst_1hr_g1440x721_v72.%Y%m%d_%H00z.nc4")
     p.add_argument('-p', '--pbl_template',type=str,help='GEOS-CF pbl file template',default="/discover/nobackup/projects/gmao/geos_cf/pub/GEOS-CF_NRT/ana/Y%Y/M%m/D%d/GEOS-CF.v01.rpl.met_tavg_1hr_g1440x721_x1.%Y%m%d_%H30z.nc4")
     return p.parse_args()

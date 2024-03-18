@@ -1,0 +1,1146 @@
+[
+    {
+        "site_name": "Agam",
+        "latitude": -0.2046,
+        "longitude": 100.3195,
+        "country": "Indonesia",
+        "start_date": "2023-06-21 23:39:14",
+        "pandora_url": "https://data.pandonia-global-network.org/Agam/Pandora211s1/L2/Pandora211s1_Agam_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "AldineTX",
+        "latitude": 29.9011,
+        "longitude": -95.3262,
+        "country": "United States",
+        "start_date": "2021-05-27 14:03:22",
+        "pandora_url": "https://data.pandonia-global-network.org/AldineTX/Pandora61s1/L2/Pandora61s1_AldineTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Altzomoni",
+        "latitude": 19.1187,
+        "longitude": -98.6552,
+        "country": "Mexico",
+        "start_date": "2019-01-29 13:33:37",
+        "pandora_url": "https://data.pandonia-global-network.org/Altzomoni/Pandora65s1/L2/Pandora65s1_Altzomoni_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ArlingtonTX",
+        "latitude": 32.7316,
+        "longitude": -97.1142,
+        "country": "United States",
+        "start_date": "2022-10-17 13:14:42",
+        "pandora_url": "https://data.pandonia-global-network.org/ArlingtonTX/Pandora207s1/L2/Pandora207s1_ArlingtonTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Athens-NOA",
+        "latitude": 37.9878,
+        "longitude": 23.775,
+        "country": "Greece",
+        "start_date": "2016-06-08 07:15:05",
+        "pandora_url": "https://data.pandonia-global-network.org/Athens-NOA/Pandora119s1/L2/Pandora119s1_Athens-NOA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "AtlantaGA-SouthDeKalb",
+        "latitude": 33.779,
+        "longitude": -84.3958,
+        "country": "USA",
+        "start_date": "2022-12-08 12:55:42",
+        "pandora_url": "https://data.pandonia-global-network.org/AtlantaGA-SouthDeKalb/Pandora237s1/L2/Pandora237s1_AtlantaGA-SouthDeKalb_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "AtlantaGA",
+        "latitude": 33.779,
+        "longitude": -84.3958,
+        "country": "USA",
+        "start_date": "2023-11-03 15:00:49",
+        "pandora_url": "https://data.pandonia-global-network.org/AtlantaGA/Pandora158s1/L2/Pandora158s1_AtlantaGA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "AtlantaGA",
+        "latitude": 33.779,
+        "longitude": -84.3958,
+        "country": "USA",
+        "start_date": "2021-09-13 16:55:10",
+        "pandora_url": "https://data.pandonia-global-network.org/AtlantaGA/Pandora173s1/L2/Pandora173s1_AtlantaGA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "AustinTX",
+        "latitude": 30.2285,
+        "longitude": -97.7544,
+        "country": "United States",
+        "start_date": "2024-01-12 16:50:35",
+        "pandora_url": "https://data.pandonia-global-network.org/AustinTX/Pandora257s1/L2/Pandora257s1_AustinTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Bandung",
+        "latitude": -6.8948,
+        "longitude": 107.5865,
+        "country": "Indonesia",
+        "start_date": "2023-04-16 23:12:32",
+        "pandora_url": "https://data.pandonia-global-network.org/Bandung/Pandora210s1/L2/Pandora210s1_Bandung_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Bangkok",
+        "latitude": 13.7847,
+        "longitude": 100.54,
+        "country": "Thailand",
+        "start_date": "2021-05-20 04:06:25",
+        "pandora_url": "https://data.pandonia-global-network.org/Bangkok/Pandora190s1/L2/Pandora190s1_Bangkok_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Bangkok",
+        "latitude": null,
+        "longitude": null,
+        "country": null,
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/Bangkok/Pandora190s1/L2/Pandora190s1_Bangkok_L2_rnvh3p1-8.txt@merged"
+    },
+    {
+        "site_name": "Bangkok",
+        "latitude": null,
+        "longitude": null,
+        "country": null,
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/Bangkok/Pandora190s1/L2/Pandora190s1_Bangkok_L2_rnvh3p1-8.txt@merged.lock"
+    },
+    {
+        "site_name": "Banting",
+        "latitude": 2.8167,
+        "longitude": 101.6232,
+        "country": "Malaysia",
+        "start_date": "2023-03-27 23:36:44",
+        "pandora_url": "https://data.pandonia-global-network.org/Banting/Pandora78s1/L2/Pandora78s1_Banting_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BayonneNJ",
+        "latitude": 40.6703,
+        "longitude": -74.1261,
+        "country": "USA",
+        "start_date": "2022-07-13 10:03:27",
+        "pandora_url": "https://data.pandonia-global-network.org/BayonneNJ/Pandora38s1/L2/Pandora38s1_BayonneNJ_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Beijing-RADI",
+        "latitude": 40.0048,
+        "longitude": 116.3786,
+        "country": "Republic of China",
+        "start_date": "2021-07-24 21:31:51",
+        "pandora_url": "https://data.pandonia-global-network.org/Beijing-RADI/Pandora171s1/L2/Pandora171s1_Beijing-RADI_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BeltsvilleMD",
+        "latitude": 39.0553,
+        "longitude": -76.8783,
+        "country": "USA",
+        "start_date": "2023-04-25 10:43:31",
+        "pandora_url": "https://data.pandonia-global-network.org/BeltsvilleMD/Pandora80s1/L2/Pandora80s1_BeltsvilleMD_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BoulderCO-NCAR",
+        "latitude": 40.0375,
+        "longitude": -105.242,
+        "country": "United States",
+        "start_date": "2021-08-27 20:48:38",
+        "pandora_url": "https://data.pandonia-global-network.org/BoulderCO-NCAR/Pandora204s1/L2/Pandora204s1_BoulderCO-NCAR_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BoulderCO",
+        "latitude": 39.99,
+        "longitude": -105.26,
+        "country": "USA",
+        "start_date": "2018-06-01 16:21:35",
+        "pandora_url": "https://data.pandonia-global-network.org/BoulderCO/Pandora57s1/L2/Pandora57s1_BoulderCO_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Bremen",
+        "latitude": 53.0813,
+        "longitude": 8.8126,
+        "country": "Germany",
+        "start_date": "2019-11-15 14:42:18",
+        "pandora_url": "https://data.pandonia-global-network.org/Bremen/Pandora21s1/L2/Pandora21s1_Bremen_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BristolPA",
+        "latitude": 40.1074,
+        "longitude": -74.8824,
+        "country": "United States",
+        "start_date": "2021-03-23 14:55:41",
+        "pandora_url": "https://data.pandonia-global-network.org/BristolPA/Pandora134s1/L2/Pandora134s1_BristolPA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BronxNY",
+        "latitude": 40.8679,
+        "longitude": -73.8781,
+        "country": "USA",
+        "start_date": "2021-03-12 22:07:43",
+        "pandora_url": "https://data.pandonia-global-network.org/BronxNY/Pandora180s1/L2/Pandora180s1_BronxNY_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Brussels-Uccle",
+        "latitude": 50.798,
+        "longitude": 4.358,
+        "country": "Belgium",
+        "start_date": "2020-03-18 06:19:04",
+        "pandora_url": "https://data.pandonia-global-network.org/Brussels-Uccle/Pandora162s1/L2/Pandora162s1_Brussels-Uccle_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BuenosAires",
+        "latitude": -34.5554,
+        "longitude": -58.5062,
+        "country": "Argentina",
+        "start_date": "2017-03-14 15:49:11",
+        "pandora_url": "https://data.pandonia-global-network.org/BuenosAires/Pandora114s1/L2/Pandora114s1_BuenosAires_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "BuffaloNY",
+        "latitude": 43.0015,
+        "longitude": -78.7869,
+        "country": "Canada",
+        "start_date": "2023-06-29 19:06:32",
+        "pandora_url": "https://data.pandonia-global-network.org/BuffaloNY/Pandora206s1/L2/Pandora206s1_BuffaloNY_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Busan",
+        "latitude": 35.2353,
+        "longitude": 129.0825,
+        "country": "South Korea",
+        "start_date": "2021-03-04 02:42:57",
+        "pandora_url": "https://data.pandonia-global-network.org/Busan/Pandora20s1/L2/Pandora20s1_Busan_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "CambridgeMA",
+        "latitude": 42.38,
+        "longitude": -71.11,
+        "country": "USA",
+        "start_date": "2022-04-10 10:38:40",
+        "pandora_url": "https://data.pandonia-global-network.org/CambridgeMA/Pandora26s1/L2/Pandora26s1_CambridgeMA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "CameronLA",
+        "latitude": 29.7881,
+        "longitude": -93.1072,
+        "country": "United States",
+        "start_date": "2023-08-11 22:08:45",
+        "pandora_url": "https://data.pandonia-global-network.org/CameronLA/Pandora260s1/L2/Pandora260s1_CameronLA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "CapeElizabethME",
+        "latitude": 43.561,
+        "longitude": -70.2073,
+        "country": "United States",
+        "start_date": "2021-07-02 15:49:39",
+        "pandora_url": "https://data.pandonia-global-network.org/CapeElizabethME/Pandora184s1/L2/Pandora184s1_CapeElizabethME_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ChapelHillNC",
+        "latitude": 35.9708,
+        "longitude": -79.0933,
+        "country": "USA",
+        "start_date": "2019-09-25 17:50:03",
+        "pandora_url": "https://data.pandonia-global-network.org/ChapelHillNC/Pandora70s1/L2/Pandora70s1_ChapelHillNC_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "CharlesCityVA",
+        "latitude": 37.326,
+        "longitude": -77.2057,
+        "country": "USA",
+        "start_date": "2020-01-16 21:33:58",
+        "pandora_url": "https://data.pandonia-global-network.org/CharlesCityVA/Pandora31s1/L2/Pandora31s1_CharlesCityVA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ChiangMai",
+        "latitude": 18.8063,
+        "longitude": 98.986,
+        "country": "Thailand",
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/ChiangMai/Pandora213s1/L2/Pandora213s1_ChiangMai_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ChicagoIL",
+        "latitude": 41.9748,
+        "longitude": -87.712,
+        "country": "United States",
+        "start_date": "2023-07-27 11:09:10",
+        "pandora_url": "https://data.pandonia-global-network.org/ChicagoIL/Pandora249s1/L2/Pandora249s1_ChicagoIL_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Cologne",
+        "latitude": 50.9389,
+        "longitude": 6.9787,
+        "country": "Germany",
+        "start_date": "2022-09-06 08:42:28",
+        "pandora_url": "https://data.pandonia-global-network.org/Cologne/Pandora67s1/L2/Pandora67s1_Cologne_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ComodoroRivadavia",
+        "latitude": -45.7833,
+        "longitude": -67.45,
+        "country": "Argentina",
+        "start_date": "2018-11-07 14:33:28",
+        "pandora_url": "https://data.pandonia-global-network.org/ComodoroRivadavia/Pandora124s1/L2/Pandora124s1_ComodoroRivadavia_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "CornwallCT",
+        "latitude": 41.8213,
+        "longitude": -73.2973,
+        "country": "United States",
+        "start_date": "2022-12-07 12:39:29",
+        "pandora_url": "https://data.pandonia-global-network.org/CornwallCT/Pandora179s1/L2/Pandora179s1_CornwallCT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Dalanzadgad",
+        "latitude": 43.5773,
+        "longitude": 104.4191,
+        "country": "Mongolia",
+        "start_date": "2022-11-01 00:05:58",
+        "pandora_url": "https://data.pandonia-global-network.org/Dalanzadgad/Pandora217s1/L2/Pandora217s1_Dalanzadgad_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Davos",
+        "latitude": 46.8,
+        "longitude": 9.83,
+        "country": "Switzerland",
+        "start_date": "2016-12-23 07:48:44",
+        "pandora_url": "https://data.pandonia-global-network.org/Davos/Pandora120s1/L2/Pandora120s1_Davos_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "DearbornMI",
+        "latitude": 42.3067,
+        "longitude": -83.1488,
+        "country": "USA",
+        "start_date": "2021-06-08 19:26:57",
+        "pandora_url": "https://data.pandonia-global-network.org/DearbornMI/Pandora39s1/L2/Pandora39s1_DearbornMI_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Dhaka",
+        "latitude": 23.7284,
+        "longitude": 90.3982,
+        "country": "Bangladesh",
+        "start_date": "2023-01-13 01:07:21",
+        "pandora_url": "https://data.pandonia-global-network.org/Dhaka/Pandora76s1/L2/Pandora76s1_Dhaka_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Downsview",
+        "latitude": 43.781,
+        "longitude": -79.468,
+        "country": "Canada",
+        "start_date": "2023-05-26 14:53:00",
+        "pandora_url": "https://data.pandonia-global-network.org/Downsview/Pandora103s1/L2/Pandora103s1_Downsview_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Downsview",
+        "latitude": 43.781,
+        "longitude": -79.468,
+        "country": "Canada",
+        "start_date": "2023-07-21 10:25:50",
+        "pandora_url": "https://data.pandonia-global-network.org/Downsview/Pandora104s1/L2/Pandora104s1_Downsview_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Downsview",
+        "latitude": 43.781,
+        "longitude": -79.468,
+        "country": "Canada",
+        "start_date": "2021-01-30 13:05:47",
+        "pandora_url": "https://data.pandonia-global-network.org/Downsview/Pandora170s1/L2/Pandora170s1_Downsview_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Downsview",
+        "latitude": 43.781,
+        "longitude": -79.468,
+        "country": "Canada",
+        "start_date": "2023-06-27 17:08:51",
+        "pandora_url": "https://data.pandonia-global-network.org/Downsview/Pandora243s1/L2/Pandora243s1_Downsview_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "EastProvidenceRI",
+        "latitude": 41.841,
+        "longitude": -71.361,
+        "country": "United States",
+        "start_date": "2023-07-02 09:46:17",
+        "pandora_url": "https://data.pandonia-global-network.org/EastProvidenceRI/Pandora185s1/L2/Pandora185s1_EastProvidenceRI_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "EdwardsCA",
+        "latitude": 34.96,
+        "longitude": -117.8811,
+        "country": "United States",
+        "start_date": "2022-05-25 13:07:53",
+        "pandora_url": "https://data.pandonia-global-network.org/EdwardsCA/Pandora74s1/L2/Pandora74s1_EdwardsCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Egbert",
+        "latitude": 44.23,
+        "longitude": -79.78,
+        "country": "Canada",
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/Egbert/Pandora108s1/L2/Pandora108s1_Egbert_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Egbert",
+        "latitude": 44.23,
+        "longitude": -79.78,
+        "country": "Canada",
+        "start_date": "2020-11-19 19:38:33",
+        "pandora_url": "https://data.pandonia-global-network.org/Egbert/Pandora169s1/L2/Pandora169s1_Egbert_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Eureka-PEARL",
+        "latitude": 80.0533,
+        "longitude": -86.416,
+        "country": "Canada",
+        "start_date": "2023-04-06 17:53:47",
+        "pandora_url": "https://data.pandonia-global-network.org/Eureka-PEARL/Pandora144s1/L2/Pandora144s1_Eureka-PEARL_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "FairbanksAK",
+        "latitude": 64.8594,
+        "longitude": -147.8499,
+        "country": "USA",
+        "start_date": "2020-06-03 14:31:11",
+        "pandora_url": "https://data.pandonia-global-network.org/FairbanksAK/Pandora174s1/L2/Pandora174s1_FairbanksAK_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Fajardo",
+        "latitude": 18.3797,
+        "longitude": -65.6184,
+        "country": "Puerto Rico",
+        "start_date": "2021-06-11 14:00:16",
+        "pandora_url": "https://data.pandonia-global-network.org/Fajardo/Pandora60s1/L2/Pandora60s1_Fajardo_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Fukuoka",
+        "latitude": 33.5491,
+        "longitude": 130.366,
+        "country": "Japan",
+        "start_date": "2023-09-18 21:28:47",
+        "pandora_url": "https://data.pandonia-global-network.org/Fukuoka/Pandora199s1/L2/Pandora199s1_Fukuoka_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Gongju-KNU",
+        "latitude": 36.471,
+        "longitude": 127.145,
+        "country": "Korea, Republic of",
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/Gongju-KNU/Pandora230s1/L2/Pandora230s1_Gongju-KNU_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Granada",
+        "latitude": 37.164,
+        "longitude": -3.605,
+        "country": "Spain",
+        "start_date": "2023-03-03 07:07:22",
+        "pandora_url": "https://data.pandonia-global-network.org/Granada/Pandora238s1/L2/Pandora238s1_Granada_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "GrandForksND",
+        "latitude": 47.9219,
+        "longitude": -97.0865,
+        "country": "United States",
+        "start_date": "2024-02-26 13:44:18",
+        "pandora_url": "https://data.pandonia-global-network.org/GrandForksND/Pandora200s1/L2/Pandora200s1_GrandForksND_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "GreenbeltMD",
+        "latitude": 38.9926,
+        "longitude": -76.8396,
+        "country": "USA",
+        "start_date": "2021-09-15 16:36:33",
+        "pandora_url": "https://data.pandonia-global-network.org/GreenbeltMD/Pandora2s1/L2/Pandora2s1_GreenbeltMD_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "GreenbeltMD",
+        "latitude": 38.9926,
+        "longitude": -76.8396,
+        "country": "USA",
+        "start_date": "2022-11-09 21:03:31",
+        "pandora_url": "https://data.pandonia-global-network.org/GreenbeltMD/Pandora32s1/L2/Pandora32s1_GreenbeltMD_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "HamptonVA-HU",
+        "latitude": 37.0203,
+        "longitude": -76.3366,
+        "country": "United States",
+        "start_date": "2023-03-16 11:41:34",
+        "pandora_url": "https://data.pandonia-global-network.org/HamptonVA-HU/Pandora156s1/L2/Pandora156s1_HamptonVA-HU_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "HamptonVA",
+        "latitude": 37.1036,
+        "longitude": -76.3868,
+        "country": "USA",
+        "start_date": "2020-11-25 16:47:01",
+        "pandora_url": "https://data.pandonia-global-network.org/HamptonVA/Pandora37s1/L2/Pandora37s1_HamptonVA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Helsinki",
+        "latitude": 60.2037,
+        "longitude": 24.9612,
+        "country": "Finland",
+        "start_date": "2018-07-11 09:24:14",
+        "pandora_url": "https://data.pandonia-global-network.org/Helsinki/Pandora105s1/L2/Pandora105s1_Helsinki_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "HoustonTX-SanJacinto",
+        "latitude": 29.579,
+        "longitude": -95.2045,
+        "country": "United States",
+        "start_date": "2024-01-09 17:07:20",
+        "pandora_url": "https://data.pandonia-global-network.org/HoustonTX-SanJacinto/Pandora261s1/L2/Pandora261s1_HoustonTX-SanJacinto_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "HoustonTX",
+        "latitude": 29.72,
+        "longitude": -95.34,
+        "country": "United States",
+        "start_date": "2020-12-08 16:43:43",
+        "pandora_url": "https://data.pandonia-global-network.org/HoustonTX/Pandora25s1/L2/Pandora25s1_HoustonTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "HuntsvilleAL",
+        "latitude": 34.7252,
+        "longitude": -86.6464,
+        "country": "United States",
+        "start_date": "2023-02-12 13:00:41",
+        "pandora_url": "https://data.pandonia-global-network.org/HuntsvilleAL/Pandora66s1/L2/Pandora66s1_HuntsvilleAL_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Incheon-ESC",
+        "latitude": 37.5689,
+        "longitude": 126.6375,
+        "country": "Korea, Republic of",
+        "start_date": "2023-06-06 20:41:10",
+        "pandora_url": "https://data.pandonia-global-network.org/Incheon-ESC/Pandora189s1/L2/Pandora189s1_Incheon-ESC_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Innsbruck",
+        "latitude": 47.2643,
+        "longitude": 11.3852,
+        "country": "Austria",
+        "start_date": "2022-08-01 09:50:07",
+        "pandora_url": "https://data.pandonia-global-network.org/Innsbruck/Pandora106s1/L2/Pandora106s1_Innsbruck_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Innsbruck",
+        "latitude": 47.2643,
+        "longitude": 11.3852,
+        "country": "Austria",
+        "start_date": "2019-04-02 06:58:24",
+        "pandora_url": "https://data.pandonia-global-network.org/Innsbruck/Pandora110s1/L2/Pandora110s1_Innsbruck_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "IowaCityIA-WHS",
+        "latitude": 41.6548,
+        "longitude": -91.5827,
+        "country": "United States",
+        "start_date": "2023-12-07 13:49:56",
+        "pandora_url": "https://data.pandonia-global-network.org/IowaCityIA-WHS/Pandora246s1/L2/Pandora246s1_IowaCityIA-WHS_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Islamabad-NUST",
+        "latitude": 33.6479,
+        "longitude": 72.9896,
+        "country": "Pakistan",
+        "start_date": "2023-01-12 02:40:18",
+        "pandora_url": "https://data.pandonia-global-network.org/Islamabad-NUST/Pandora73s1/L2/Pandora73s1_Islamabad-NUST_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Izana",
+        "latitude": 28.309,
+        "longitude": -16.4994,
+        "country": "Spain",
+        "start_date": "2023-09-05 11:23:00",
+        "pandora_url": "https://data.pandonia-global-network.org/Izana/Pandora101s1/L2/Pandora101s1_Izana_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Izana",
+        "latitude": 28.309,
+        "longitude": -16.4994,
+        "country": "Spain",
+        "start_date": "2017-06-26 06:34:15",
+        "pandora_url": "https://data.pandonia-global-network.org/Izana/Pandora121s1/L2/Pandora121s1_Izana_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Izana",
+        "latitude": 28.309,
+        "longitude": -16.4994,
+        "country": "Spain",
+        "start_date": "2022-07-21 07:52:48",
+        "pandora_url": "https://data.pandonia-global-network.org/Izana/Pandora209s1/L2/Pandora209s1_Izana_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Juelich",
+        "latitude": 50.908,
+        "longitude": 6.413,
+        "country": "Germany",
+        "start_date": "2020-01-21 09:00:56",
+        "pandora_url": "https://data.pandonia-global-network.org/Juelich/Pandora30s1/L2/Pandora30s1_Juelich_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Kobe",
+        "latitude": 34.719,
+        "longitude": 135.29,
+        "country": "Japan",
+        "start_date": "2022-02-15 22:07:34",
+        "pandora_url": "https://data.pandonia-global-network.org/Kobe/Pandora198s1/L2/Pandora198s1_Kobe_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Kosetice",
+        "latitude": 49.5733,
+        "longitude": 15.0803,
+        "country": "Czech Republic",
+        "start_date": "2023-04-11 12:59:15",
+        "pandora_url": "https://data.pandonia-global-network.org/Kosetice/Pandora239s1/L2/Pandora239s1_Kosetice_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LaPorteTX",
+        "latitude": 29.6721,
+        "longitude": -95.0647,
+        "country": "United States",
+        "start_date": "2021-08-03 21:00:49",
+        "pandora_url": "https://data.pandonia-global-network.org/LaPorteTX/Pandora11s1/L2/Pandora11s1_LaPorteTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LaPorteTX",
+        "latitude": 29.6721,
+        "longitude": -95.0647,
+        "country": "United States",
+        "start_date": "2021-08-30 17:15:12",
+        "pandora_url": "https://data.pandonia-global-network.org/LaPorteTX/Pandora58s1/L2/Pandora58s1_LaPorteTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LaPorteTX",
+        "latitude": 29.6721,
+        "longitude": -95.0647,
+        "country": "United States",
+        "start_date": "2021-06-01 15:52:41",
+        "pandora_url": "https://data.pandonia-global-network.org/LaPorteTX/Pandora63s1/L2/Pandora63s1_LaPorteTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LibertyTX",
+        "latitude": 30.0965,
+        "longitude": -94.7635,
+        "country": "United States",
+        "start_date": "2021-05-29 23:13:37",
+        "pandora_url": "https://data.pandonia-global-network.org/LibertyTX/Pandora143s1/L2/Pandora143s1_LibertyTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Lindenberg",
+        "latitude": 52.29,
+        "longitude": 14.12,
+        "country": "Germany",
+        "start_date": "2022-07-28 03:50:26",
+        "pandora_url": "https://data.pandonia-global-network.org/Lindenberg/Pandora130s1/L2/Pandora130s1_Lindenberg_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LondonderryNH",
+        "latitude": 42.8625,
+        "longitude": -71.3801,
+        "country": "United States",
+        "start_date": "2021-04-26 20:13:03",
+        "pandora_url": "https://data.pandonia-global-network.org/LondonderryNH/Pandora183s1/L2/Pandora183s1_LondonderryNH_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "LynnMA",
+        "latitude": 42.4746,
+        "longitude": -70.9708,
+        "country": "United States",
+        "start_date": "2022-02-08 13:03:01",
+        "pandora_url": "https://data.pandonia-global-network.org/LynnMA/Pandora153s1/L2/Pandora153s1_LynnMA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MadisonCT",
+        "latitude": 41.2568,
+        "longitude": -72.5533,
+        "country": "USA",
+        "start_date": "2021-09-22 15:26:13",
+        "pandora_url": "https://data.pandonia-global-network.org/MadisonCT/Pandora186s1/L2/Pandora186s1_MadisonCT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ManhattanKS",
+        "latitude": 39.1022,
+        "longitude": -96.6096,
+        "country": "United States",
+        "start_date": "2021-03-26 12:46:14",
+        "pandora_url": "https://data.pandonia-global-network.org/ManhattanKS/Pandora165s1/L2/Pandora165s1_ManhattanKS_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ManhattanKS",
+        "latitude": 39.1022,
+        "longitude": -96.6096,
+        "country": "United States",
+        "start_date": "2022-01-28 15:41:24",
+        "pandora_url": "https://data.pandonia-global-network.org/ManhattanKS/Pandora178s1/L2/Pandora178s1_ManhattanKS_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "ManhattanNY-CCNY",
+        "latitude": 40.8153,
+        "longitude": -73.9505,
+        "country": "USA",
+        "start_date": "2023-03-10 11:42:07",
+        "pandora_url": "https://data.pandonia-global-network.org/ManhattanNY-CCNY/Pandora135s1/L2/Pandora135s1_ManhattanNY-CCNY_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MaunaLoaHI",
+        "latitude": 19.4795,
+        "longitude": -155.6027,
+        "country": "USA",
+        "start_date": "2020-12-31 17:22:37",
+        "pandora_url": "https://data.pandonia-global-network.org/MaunaLoaHI/Pandora56s1/L2/Pandora56s1_MaunaLoaHI_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MexicoCity-UNAM",
+        "latitude": 19.3262,
+        "longitude": -99.1761,
+        "country": "Mexico",
+        "start_date": "2023-02-08 13:32:01",
+        "pandora_url": "https://data.pandonia-global-network.org/MexicoCity-UNAM/Pandora142s1/L2/Pandora142s1_MexicoCity-UNAM_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MexicoCity-Vallejo",
+        "latitude": 19.483,
+        "longitude": -99.147,
+        "country": "Mexico",
+        "start_date": "2019-11-05 18:15:55",
+        "pandora_url": "https://data.pandonia-global-network.org/MexicoCity-Vallejo/Pandora157s1/L2/Pandora157s1_MexicoCity-Vallejo_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MiamiFL-FIU",
+        "latitude": 25.7569,
+        "longitude": -80.3738,
+        "country": "United States",
+        "start_date": "2024-02-23 12:14:32",
+        "pandora_url": "https://data.pandonia-global-network.org/MiamiFL-FIU/Pandora256s1/L2/Pandora256s1_MiamiFL-FIU_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "MountainViewCA",
+        "latitude": 37.42,
+        "longitude": -122.0568,
+        "country": "United States",
+        "start_date": "2023-02-08 15:31:33",
+        "pandora_url": "https://data.pandonia-global-network.org/MountainViewCA/Pandora34s1/L2/Pandora34s1_MountainViewCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Nagoya",
+        "latitude": 35.1517,
+        "longitude": 136.9721,
+        "country": "Japan",
+        "start_date": "2023-11-09 21:49:29",
+        "pandora_url": "https://data.pandonia-global-network.org/Nagoya/Pandora197s1/L2/Pandora197s1_Nagoya_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Nainital-ARIES",
+        "latitude": 29.3588,
+        "longitude": 79.4583,
+        "country": "India",
+        "start_date": "2024-01-22 02:01:05",
+        "pandora_url": "https://data.pandonia-global-network.org/Nainital-ARIES/Pandora251s1/L2/Pandora251s1_Nainital-ARIES_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "NewBrunswickNJ",
+        "latitude": 40.4622,
+        "longitude": -74.4294,
+        "country": "USA",
+        "start_date": "2020-11-06 19:04:20",
+        "pandora_url": "https://data.pandonia-global-network.org/NewBrunswickNJ/Pandora69s1/L2/Pandora69s1_NewBrunswickNJ_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "NewHavenCT",
+        "latitude": 41.3014,
+        "longitude": -72.9029,
+        "country": "USA",
+        "start_date": "2019-09-11 16:03:43",
+        "pandora_url": "https://data.pandonia-global-network.org/NewHavenCT/Pandora64s1/L2/Pandora64s1_NewHavenCT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "NewLondonCT",
+        "latitude": 41.3758,
+        "longitude": -72.1004,
+        "country": "United States",
+        "start_date": "2023-06-26 09:47:36",
+        "pandora_url": "https://data.pandonia-global-network.org/NewLondonCT/Pandora236s1/L2/Pandora236s1_NewLondonCT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "NyAlesund",
+        "latitude": 78.9233,
+        "longitude": 11.9299,
+        "country": "Norway",
+        "start_date": "2020-03-19 15:19:52",
+        "pandora_url": "https://data.pandonia-global-network.org/NyAlesund/Pandora152s1/L2/Pandora152s1_NyAlesund_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "OldFieldNY",
+        "latitude": 40.9635,
+        "longitude": -73.1402,
+        "country": "USA",
+        "start_date": "2023-01-11 12:44:56",
+        "pandora_url": "https://data.pandonia-global-network.org/OldFieldNY/Pandora51s1/L2/Pandora51s1_OldFieldNY_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Palau",
+        "latitude": 7.342,
+        "longitude": 134.4722,
+        "country": "Palau",
+        "start_date": "2023-07-14 21:12:02",
+        "pandora_url": "https://data.pandonia-global-network.org/Palau/Pandora131s1/L2/Pandora131s1_Palau_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "PhiladelphiaPA",
+        "latitude": 39.9919,
+        "longitude": -75.0811,
+        "country": "United States",
+        "start_date": "2021-04-12 13:19:31",
+        "pandora_url": "https://data.pandonia-global-network.org/PhiladelphiaPA/Pandora166s1/L2/Pandora166s1_PhiladelphiaPA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "PittsburghPA",
+        "latitude": 40.4655,
+        "longitude": -79.9608,
+        "country": "United States",
+        "start_date": "2021-10-06 15:13:02",
+        "pandora_url": "https://data.pandonia-global-network.org/PittsburghPA/Pandora187s1/L2/Pandora187s1_PittsburghPA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "QueensNY",
+        "latitude": 40.7361,
+        "longitude": -73.8215,
+        "country": "USA",
+        "start_date": "2023-05-21 10:03:35",
+        "pandora_url": "https://data.pandonia-global-network.org/QueensNY/Pandora55s1/L2/Pandora55s1_QueensNY_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "RichmondCA",
+        "latitude": 37.913,
+        "longitude": -122.336,
+        "country": "USA",
+        "start_date": "2022-09-28 14:25:48",
+        "pandora_url": "https://data.pandonia-global-network.org/RichmondCA/Pandora52s1/L2/Pandora52s1_RichmondCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Rome-IIA",
+        "latitude": 42.1057,
+        "longitude": 12.6402,
+        "country": "Italy",
+        "start_date": "2022-01-28 06:51:10",
+        "pandora_url": "https://data.pandonia-global-network.org/Rome-IIA/Pandora138s1/L2/Pandora138s1_Rome-IIA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Rome-ISAC",
+        "latitude": 41.8403,
+        "longitude": 12.6475,
+        "country": "Italy",
+        "start_date": "2017-03-31 09:58:57",
+        "pandora_url": "https://data.pandonia-global-network.org/Rome-ISAC/Pandora115s1/L2/Pandora115s1_Rome-ISAC_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Rome-SAP",
+        "latitude": 41.9017,
+        "longitude": 12.5158,
+        "country": "Italy",
+        "start_date": "2016-05-09 15:58:51",
+        "pandora_url": "https://data.pandonia-global-network.org/Rome-SAP/Pandora117s1/L2/Pandora117s1_Rome-SAP_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Rome-SAP",
+        "latitude": 41.9017,
+        "longitude": 12.5158,
+        "country": "Italy",
+        "start_date": "2019-08-30 10:15:46",
+        "pandora_url": "https://data.pandonia-global-network.org/Rome-SAP/Pandora138s1/L2/Pandora138s1_Rome-SAP_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "SaltLakeCityUT-Hawthorne",
+        "latitude": 40.7344,
+        "longitude": -111.8722,
+        "country": "United States",
+        "start_date": "2023-03-28 13:43:32",
+        "pandora_url": "https://data.pandonia-global-network.org/SaltLakeCityUT-Hawthorne/Pandora72s1/L2/Pandora72s1_SaltLakeCityUT-Hawthorne_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "SaltLakeCityUT",
+        "latitude": 40.7663,
+        "longitude": -111.8478,
+        "country": "United States",
+        "start_date": "2022-12-19 15:15:16",
+        "pandora_url": "https://data.pandonia-global-network.org/SaltLakeCityUT/Pandora154s1/L2/Pandora154s1_SaltLakeCityUT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "SanJoseCA",
+        "latitude": 37.3325,
+        "longitude": -121.8821,
+        "country": "United States",
+        "start_date": "2022-10-02 14:29:15",
+        "pandora_url": "https://data.pandonia-global-network.org/SanJoseCA/Pandora181s1/L2/Pandora181s1_SanJoseCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Sapporo",
+        "latitude": 43.0727,
+        "longitude": 141.3459,
+        "country": "Japan",
+        "start_date": "2022-04-03 20:37:31",
+        "pandora_url": "https://data.pandonia-global-network.org/Sapporo/Pandora196s1/L2/Pandora196s1_Sapporo_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Seosan",
+        "latitude": 36.7769,
+        "longitude": 126.4938,
+        "country": "Korea, Republic of",
+        "start_date": "2023-02-10 22:52:47",
+        "pandora_url": "https://data.pandonia-global-network.org/Seosan/Pandora164s1/L2/Pandora164s1_Seosan_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Seoul-SNU",
+        "latitude": 37.458,
+        "longitude": 126.951,
+        "country": "Korea, Republic of",
+        "start_date": "2020-06-28 20:40:53",
+        "pandora_url": "https://data.pandonia-global-network.org/Seoul-SNU/Pandora149s1/L2/Pandora149s1_Seoul-SNU_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Seoul",
+        "latitude": 37.5644,
+        "longitude": 126.934,
+        "country": "South Korea",
+        "start_date": "2022-11-30 22:55:32",
+        "pandora_url": "https://data.pandonia-global-network.org/Seoul/Pandora54s1/L2/Pandora54s1_Seoul_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Singapore-NUS",
+        "latitude": 1.299,
+        "longitude": 103.771,
+        "country": "Singapore",
+        "start_date": "2023-06-13 23:21:00",
+        "pandora_url": "https://data.pandonia-global-network.org/Singapore-NUS/Pandora77s1/L2/Pandora77s1_Singapore-NUS_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Songkhla",
+        "latitude": 7.0059,
+        "longitude": 100.4981,
+        "country": "Thailand",
+        "start_date": "2022-08-27 23:32:04",
+        "pandora_url": "https://data.pandonia-global-network.org/Songkhla/Pandora214s1/L2/Pandora214s1_Songkhla_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "SouthJordanUT",
+        "latitude": 40.548,
+        "longitude": -112.07,
+        "country": "United States",
+        "start_date": "2022-07-13 12:36:23",
+        "pandora_url": "https://data.pandonia-global-network.org/SouthJordanUT/Pandora139s1/L2/Pandora139s1_SouthJordanUT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "StGeorge",
+        "latitude": 43.6605,
+        "longitude": -79.3986,
+        "country": "Canada",
+        "start_date": "2023-02-10 12:49:58",
+        "pandora_url": "https://data.pandonia-global-network.org/StGeorge/Pandora109s1/L2/Pandora109s1_StGeorge_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Suwon-USW",
+        "latitude": 37.211,
+        "longitude": 126.98,
+        "country": "Korea, Republic of",
+        "start_date": "2024-02-25 22:31:26",
+        "pandora_url": "https://data.pandonia-global-network.org/Suwon-USW/Pandora231s1/L2/Pandora231s1_Suwon-USW_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "SWDetroitMI",
+        "latitude": 42.3026,
+        "longitude": -83.1068,
+        "country": "USA",
+        "start_date": "2021-06-08 19:20:58",
+        "pandora_url": "https://data.pandonia-global-network.org/SWDetroitMI/Pandora147s1/L2/Pandora147s1_SWDetroitMI_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tel-Aviv",
+        "latitude": 32.1129,
+        "longitude": 34.8062,
+        "country": "Israel",
+        "start_date": "2021-06-13 14:54:03",
+        "pandora_url": "https://data.pandonia-global-network.org/Tel-Aviv/Pandora182s1/L2/Pandora182s1_Tel-Aviv_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Thessaloniki",
+        "latitude": 40.6336,
+        "longitude": 22.9561,
+        "country": "Greece",
+        "start_date": "2023-03-30 04:36:56",
+        "pandora_url": "https://data.pandonia-global-network.org/Thessaloniki/Pandora240s1/L2/Pandora240s1_Thessaloniki_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tokyo-Sophia",
+        "latitude": 35.6831,
+        "longitude": 139.7317,
+        "country": "Japan",
+        "start_date": "2023-08-16 20:26:02",
+        "pandora_url": "https://data.pandonia-global-network.org/Tokyo-Sophia/Pandora192s1/L2/Pandora192s1_Tokyo-Sophia_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tokyo-TMU",
+        "latitude": 35.62,
+        "longitude": 139.3834,
+        "country": "Japan",
+        "start_date": "2021-12-22 22:14:52",
+        "pandora_url": "https://data.pandonia-global-network.org/Tokyo-TMU/Pandora194s1/L2/Pandora194s1_Tokyo-TMU_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Toronto-Scarborough",
+        "latitude": 43.7843,
+        "longitude": -79.1874,
+        "country": "Canada",
+        "start_date": "2019-12-18 13:17:51",
+        "pandora_url": "https://data.pandonia-global-network.org/Toronto-Scarborough/Pandora145s1/L2/Pandora145s1_Toronto-Scarborough_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Toronto-West",
+        "latitude": 43.7094,
+        "longitude": -79.5435,
+        "country": "Canada",
+        "start_date": "2021-12-16 13:16:39",
+        "pandora_url": "https://data.pandonia-global-network.org/Toronto-West/Pandora108s1/L2/Pandora108s1_Toronto-West_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tsukuba-NIES-West",
+        "latitude": 36.0506,
+        "longitude": 140.1202,
+        "country": "Japan",
+        "start_date": "2023-09-11 20:45:17",
+        "pandora_url": "https://data.pandonia-global-network.org/Tsukuba-NIES-West/Pandora163s1/L2/Pandora163s1_Tsukuba-NIES-West_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tsukuba-NIES",
+        "latitude": 36.0513,
+        "longitude": 140.121,
+        "country": "Japan",
+        "start_date": "2021-08-05 01:12:09",
+        "pandora_url": "https://data.pandonia-global-network.org/Tsukuba-NIES/Pandora176s1/L2/Pandora176s1_Tsukuba-NIES_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Tsukuba",
+        "latitude": 36.0661,
+        "longitude": 140.1244,
+        "country": "Japan",
+        "start_date": "2021-04-12 08:24:04",
+        "pandora_url": "https://data.pandonia-global-network.org/Tsukuba/Pandora193s1/L2/Pandora193s1_Tsukuba_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "TucsonAZ",
+        "latitude": 32.233,
+        "longitude": -110.953,
+        "country": "United States",
+        "start_date": "2024-01-11 14:52:49",
+        "pandora_url": "https://data.pandonia-global-network.org/TucsonAZ/Pandora253s1/L2/Pandora253s1_TucsonAZ_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "TurlockCA",
+        "latitude": 37.523,
+        "longitude": -120.855,
+        "country": "United States",
+        "start_date": "2023-08-30 21:10:48",
+        "pandora_url": "https://data.pandonia-global-network.org/TurlockCA/Pandora248s1/L2/Pandora248s1_TurlockCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Ulaanbaatar",
+        "latitude": 47.9188,
+        "longitude": 106.848,
+        "country": "Mongolia",
+        "start_date": "2023-03-02 04:09:39",
+        "pandora_url": "https://data.pandonia-global-network.org/Ulaanbaatar/Pandora216s1/L2/Pandora216s1_Ulaanbaatar_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Ulsan",
+        "latitude": 35.5745,
+        "longitude": 129.1896,
+        "country": "South Korea",
+        "start_date": "2021-08-23 21:45:23",
+        "pandora_url": "https://data.pandonia-global-network.org/Ulsan/Pandora150s1/L2/Pandora150s1_Ulsan_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WacoTX",
+        "latitude": 31.5477,
+        "longitude": -97.1142,
+        "country": "United States",
+        "start_date": "None",
+        "pandora_url": "https://data.pandonia-global-network.org/WacoTX/Pandora207s1/L2/Pandora207s1_WacoTX_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Wakkerstroom",
+        "latitude": -27.3493,
+        "longitude": 30.1438,
+        "country": "South Africa",
+        "start_date": "2019-12-20 10:31:03",
+        "pandora_url": "https://data.pandonia-global-network.org/Wakkerstroom/Pandora159s1/L2/Pandora159s1_Wakkerstroom_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WallopsIslandVA",
+        "latitude": 37.8439,
+        "longitude": -75.4775,
+        "country": "USA",
+        "start_date": "2021-05-14 10:17:37",
+        "pandora_url": "https://data.pandonia-global-network.org/WallopsIslandVA/Pandora40s1/L2/Pandora40s1_WallopsIslandVA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Warsaw-UW",
+        "latitude": 52.2113,
+        "longitude": 20.9828,
+        "country": "Poland",
+        "start_date": "2023-12-07 07:06:14",
+        "pandora_url": "https://data.pandonia-global-network.org/Warsaw-UW/Pandora270s1/L2/Pandora270s1_Warsaw-UW_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WashingtonDC",
+        "latitude": 38.9218,
+        "longitude": -77.0124,
+        "country": "United States",
+        "start_date": "2022-09-29 11:27:49",
+        "pandora_url": "https://data.pandonia-global-network.org/WashingtonDC/Pandora140s1/L2/Pandora140s1_WashingtonDC_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WestportCT",
+        "latitude": 41.1183,
+        "longitude": -73.3367,
+        "country": "USA",
+        "start_date": "2022-11-01 15:28:04",
+        "pandora_url": "https://data.pandonia-global-network.org/WestportCT/Pandora177s1/L2/Pandora177s1_WestportCT_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WhittierCA",
+        "latitude": 33.9768,
+        "longitude": -118.0299,
+        "country": "United States",
+        "start_date": "2023-06-20 16:21:43",
+        "pandora_url": "https://data.pandonia-global-network.org/WhittierCA/Pandora247s1/L2/Pandora247s1_WhittierCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Windsor-West",
+        "latitude": 42.2929,
+        "longitude": -83.0731,
+        "country": "Canada",
+        "start_date": "2022-07-13 10:35:18",
+        "pandora_url": "https://data.pandonia-global-network.org/Windsor-West/Pandora208s1/L2/Pandora208s1_Windsor-West_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "WrightwoodCA",
+        "latitude": 34.3819,
+        "longitude": -117.6813,
+        "country": "USA",
+        "start_date": "2022-11-03 14:38:40",
+        "pandora_url": "https://data.pandonia-global-network.org/WrightwoodCA/Pandora68s1/L2/Pandora68s1_WrightwoodCA_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Yokosuka",
+        "latitude": 35.3207,
+        "longitude": 139.6508,
+        "country": "Japan",
+        "start_date": "2018-11-23 21:52:00",
+        "pandora_url": "https://data.pandonia-global-network.org/Yokosuka/Pandora146s1/L2/Pandora146s1_Yokosuka_L2_rnvh3p1-8.txt"
+    },
+    {
+        "site_name": "Yongin",
+        "latitude": 37.338,
+        "longitude": 127.265,
+        "country": "South Korea",
+        "start_date": "2023-06-27 00:08:32",
+        "pandora_url": "https://data.pandonia-global-network.org/Yongin/Pandora232s1/L2/Pandora232s1_Yongin_L2_rnvh3p1-8.txt"
+    }
+]
