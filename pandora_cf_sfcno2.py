@@ -29,7 +29,7 @@ import argparse
 import json
 
 VV_TO_MOLEC = 1000./(9.80665*28.9644)
-MINDATE=dt.datetime(2020,1,1)
+#MINDATE=dt.datetime(2020,1,1)
 
 # read pandora 
 def main(args):
@@ -56,7 +56,8 @@ def main(args):
     # limit data to minimum date and three days from now (due to CF latency)
     maxdate = dt.datetime.today() - dt.timedelta(days=3) 
     maxdate = dt.datetime(maxdate.year,maxdate.month,maxdate.day)
-    pand = pand.loc[pand['date']>=MINDATE,].copy()
+    mindate = dt.datetime.strptime(args.mindate,"%Y-%m-%d")
+    pand = pand.loc[pand['date']>=mindate,].copy()
     pand = pand.loc[pand['date']<=maxdate,].copy()
     pand = pand.loc[(pand['pandora_no2_l1hgt']>0.0)&(pand['pandora_no2_l1hgt']<15.),].copy()
  
@@ -66,26 +67,51 @@ def main(args):
     pand['cf_no2_sfcconc'] = [np.nan for i in range(pand.shape[0])]
     pand['cf_no2_l1col'] = [np.nan for i in range(pand.shape[0])]
     pand['cf_no2_pbl'] = [np.nan for i in range(pand.shape[0])]
-    
-    # populate CF fields
-    fnl={}; dsl={}
-    for irow, row in enumerate(pand.itertuples()):
-        # get cf values for this entry
-        sfcmr,sfcconc,l1col,pbl,sfcmr_pandora,fnl,dsl = _match_cf(args,row,lat,lon,fnl,dsl)
-        # add to pandas array
-        pand['pandora_no2_sfcmr'].values[irow] = sfcmr_pandora
-        pand['cf_no2_sfcmr'].values[irow] = sfcmr
-        pand['cf_no2_sfcconc'].values[irow] = sfcconc
-        pand['cf_no2_l1col'].values[irow] = l1col
-        pand['cf_no2_pbl'].values[irow] = pbl
 
     # add latitude and longitude to file
     pand['lat'] = [lat for i in range(pand.shape[0])]
     pand['lon'] = [lon for i in range(pand.shape[0])]
-    
-    # write to file
-    pand.to_csv(ofile,index=False,date_format="%Y-%m-%d %H:%M")
-    print("data written to {}".format(ofile))
+
+    pand['year'] = [i.year for i in pand['date']]
+
+    # process year by year
+    years = pand['year'].unique()
+    for y in years:
+        ipand = pand.loc[pand['year']==y,].copy().drop(columns='year')
+        # populate CF fields
+        fnl={}; dsl={}
+        for irow, row in enumerate(ipand.itertuples()):
+            # get cf values for this entry
+            sfcmr,sfcconc,l1col,pbl,sfcmr_pandora,fnl,dsl = _match_cf(args,row,lat,lon,fnl,dsl)
+            # add to pandas array
+            ipand['pandora_no2_sfcmr'].values[irow] = sfcmr_pandora
+            ipand['cf_no2_sfcmr'].values[irow] = sfcmr
+            ipand['cf_no2_sfcconc'].values[irow] = sfcconc
+            ipand['cf_no2_l1col'].values[irow] = l1col
+            ipand['cf_no2_pbl'].values[irow] = pbl
+
+        # write to file
+        hasfile = os.path.isfile(ofile)
+        # write new if file does not exist
+        if not hasfile:
+            wm  = 'w+'
+            hdr = True
+        else:
+            # append to existing file
+            if args.append==1:
+                wm  = 'a'
+                hdr = False 
+            # overwrite old file
+            else:
+                wm  = 'w+'
+                hdr = True
+        # if appending, make sure order is correct. 
+        if wm=='a':
+            file_hdr = pd.read_csv(ofile,nrows=1)
+            ipand = ipand[file_hdr.keys()]
+        # now write to csv
+        ipand.to_csv(ofile,index=False,date_format="%Y-%m-%d %H:%M",mode=wm,header=hdr)  # float_format='%.4f'
+        print("data written to {}".format(ofile))
     
     # plot l1 columns
     if False:
@@ -244,6 +270,8 @@ def parse_args():
     #p.add_argument('-i', '--ifile',type=str,help='input pandora file',default=None)
     p.add_argument('-c', '--cf_template',type=str,help='GEOS-CF file template',default="/discover/nobackup/projects/gmao/geos_cf/pub/GEOS-CF_NRT/ana/Y%Y/M%m/D%d/GEOS-CF.v01.rpl.<col>_inst_1hr_g1440x721_v72.%Y%m%d_%H00z.nc4")
     p.add_argument('-p', '--pbl_template',type=str,help='GEOS-CF pbl file template',default="/discover/nobackup/projects/gmao/geos_cf/pub/GEOS-CF_NRT/ana/Y%Y/M%m/D%d/GEOS-CF.v01.rpl.met_tavg_1hr_g1440x721_x1.%Y%m%d_%H30z.nc4")
+    p.add_argument('-a', '--append',type=int,help='append to file if exists?',default=1)
+    p.add_argument('-m', '--mindate',type=str,help='minimum date (%Y-%m-%d)',default="2020-01-01")
     return p.parse_args()
 
  
