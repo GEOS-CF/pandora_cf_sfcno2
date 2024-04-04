@@ -46,7 +46,7 @@ def main(args):
         return
 
     ofile = "merged_csv/"+basename.replace(".txt","+GEOSCF.csv")
-    if os.path.isfile(ofile):
+    if os.path.isfile(ofile) and args.skip==1:
         print("file exists, don't do anything: {}".format(ofile))
         return
 
@@ -272,6 +272,7 @@ def parse_args():
     p.add_argument('-p', '--pbl_template',type=str,help='GEOS-CF pbl file template',default="/discover/nobackup/projects/gmao/geos_cf/pub/GEOS-CF_NRT/ana/Y%Y/M%m/D%d/GEOS-CF.v01.rpl.met_tavg_1hr_g1440x721_x1.%Y%m%d_%H30z.nc4")
     p.add_argument('-a', '--append',type=int,help='append to file if exists?',default=1)
     p.add_argument('-m', '--mindate',type=str,help='minimum date (%Y-%m-%d)',default="2020-01-01")
+    p.add_argument('-s', '--skip',type=int,help='skip if output file already exists',default=1)
     return p.parse_args()
 
  
